@@ -13,9 +13,7 @@ Google Sitesで整理した内容を元に、PWAとしてホーム画面追加�
 ## ファイル構成
 
 - `AGENTS.md`: 次の自動化エージェントや開発者への作業指示。
-- `Agents.me`: ユーザー指定名の引き継ぎ入口。
 - `Design.md`: UI/UXとデザイン方針。
-- `Desing.md`: ユーザー指定名のデザイン入口。`Design.md` への導線。
 - `index.html`: アプリ本体の入口。
 - `styles.css`: 見た目とスマホ/PC表示。
 - `app.js`: ページ切り替え、検索、PWA追加ボタン。

@@ -57,7 +57,6 @@ http://127.0.0.1:4177/
 
 - `README.md`
 - `Design.md`
-- `Desing.md`
 - `docs/handover-guide.md`
 - `docs/annual-update-checklist.md`
 - `docs/content-management.md`
