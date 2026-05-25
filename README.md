@@ -64,3 +64,6 @@ Google Sheetsを更新元にしたい場合は、次の段階で `data/portal-da
 
 このプロトタイプはGitHub Pagesで公開できる静的PWAです。
 詳しくは `docs/github-pages.md` を参照してください。
+
+- リポジトリ: https://github.com/gyawa24/chitose-jc-member-portal
+- 公開URL: https://gyawa24.github.io/chitose-jc-member-portal/

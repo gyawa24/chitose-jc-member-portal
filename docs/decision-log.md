@@ -50,3 +50,23 @@
 
 - 標準名として `AGENTS.md` と `Design.md` を置く。
 - 指定名として `Agents.me` と `Desing.md` も置き、標準資料への導線にする。
+
+## 2026-05-25: GitHub Pagesで公開する
+
+理由:
+
+- 静的PWAとしてシンプルに公開できる。
+- 更新履歴をGitで残せる。
+- 引き継ぎ時にファイル一式と変更履歴を渡しやすい。
+
+公開URL:
+
+```text
+https://gyawa24.github.io/chitose-jc-member-portal/
+```
+
+注意:
+
+- GitHub Pagesで公開した内容はインターネット上から閲覧できる。
+- 実ファイルの閲覧権限はGoogle Drive/Sheets側で管理する。
+- 認証情報や個人情報はPWAにもリポジトリにも置かない。

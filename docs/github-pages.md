@@ -8,6 +8,12 @@
 chitose-jc-member-portal
 ```
 
+リポジトリURL:
+
+```text
+https://github.com/gyawa24/chitose-jc-member-portal
+```
+
 ## 公開方式
 
 GitHub Pagesの `Deploy from a branch` を使い、`main` ブランチのルートを公開します。
