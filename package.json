@@ -1,0 +1,11 @@
+{
+  "name": "chitose-jc-member-portal",
+  "private": true,
+  "version": "0.1.0",
+  "description": "千歳青年会議所メンバーポータルPWA",
+  "scripts": {
+    "serve": "python3 -m http.server 4177",
+    "check": "node tools/validate-portal.mjs",
+    "links:check": "node tools/check-links.mjs"
+  }
+}

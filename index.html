@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b5cab" />
+    <meta
+      name="description"
+      content="千歳青年会議所メンバー向けの資料、学習リンク、議案チェック、予定・出欠、例会コンテンツの入口です。"
+    />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>千歳青年会議所 メンバーポータル</title>
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <header class="app-header">
+        <a class="brand" href="#home" aria-label="ホームへ戻る">
+          <span class="brand-mark" aria-hidden="true">JC</span>
+          <span>
+            <span class="brand-kicker">千歳青年会議所</span>
+            <span class="brand-name">メンバーポータル</span>
+          </span>
+        </a>
+        <button id="installButton" class="install-button" type="button" aria-label="ホーム画面に追加" hidden>
+          <span data-icon="download" aria-hidden="true"></span>
+          <span>追加</span>
+        </button>
+      </header>
+
+      <main class="main-layout">
+        <aside class="side-nav" aria-label="ページ">
+          <div id="desktopNav"></div>
+        </aside>
+
+        <section class="content-area" aria-live="polite">
+          <div class="search-panel">
+            <label class="search-box">
+              <span data-icon="search" aria-hidden="true"></span>
+              <input id="searchInput" type="search" placeholder="リンクやページを検索" autocomplete="off" />
+            </label>
+          </div>
+
+          <div id="pageMount"></div>
+          <footer id="appFooter" class="app-footer"></footer>
+        </section>
+      </main>
+
+      <nav id="bottomNav" class="bottom-nav" aria-label="主要ページ"></nav>
+    </div>
+
+    <template id="loadingTemplate">
+      <section class="empty-state">
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line short"></div>
+      </section>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

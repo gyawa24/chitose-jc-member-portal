@@ -1,0 +1,444 @@
+{
+  "updatedAt": "2026-05-25",
+  "site": {
+    "kicker": "千歳JCメンバー向け",
+    "title": "千歳青年会議所 メンバーポータル"
+  },
+  "navigation": [
+    { "id": "home", "label": "ホーム", "shortLabel": "ホーム", "icon": "home", "primary": true },
+    { "id": "learning", "label": "JCを学ぶ", "shortLabel": "学ぶ", "icon": "book", "primary": true },
+    { "id": "proposal", "label": "議案チェック", "shortLabel": "議案", "icon": "check", "primary": true },
+    { "id": "attendance", "label": "予定・出欠", "shortLabel": "出欠", "icon": "calendar", "primary": true },
+    { "id": "resources", "label": "資料置き場", "shortLabel": "資料", "icon": "folder", "primary": true },
+    { "id": "archive", "label": "例会コンテンツ", "shortLabel": "例会", "icon": "archive", "primary": false },
+    { "id": "related", "label": "関連リンク", "shortLabel": "リンク", "icon": "link", "primary": false }
+  ],
+  "featuredLinks": [
+    {
+      "title": "2026アジェンダシステム",
+      "description": "2026年度のアジェンダ確認に使用します。ログイン情報は掲載しません。",
+      "url": "https://agendasys.com/chitose/2026/index.html",
+      "icon": "file",
+      "kind": "内部実務",
+      "color": "teal"
+    },
+    {
+      "title": "例会等出席スプレッドシート",
+      "description": "例会等の出欠確認に使用します。",
+      "url": "https://docs.google.com/spreadsheets/d/1xWLeMHVNUXw3fnilWuUSuSBTP1ZMINmmlrMe7zrIcMk/edit?gid=99975116#gid=99975116",
+      "icon": "calendar",
+      "kind": "Google Sheets"
+    },
+    {
+      "title": "理事会出席スプレッドシート",
+      "description": "理事会の出欠確認に使用します。",
+      "url": "https://docs.google.com/spreadsheets/d/17fbtskEilGHakFUt2pikT1___R0w0HI66t6ennopsBg/edit?usp=sharing",
+      "icon": "calendar",
+      "kind": "Google Sheets"
+    },
+    {
+      "title": "対外資料発番スプレッドシート",
+      "description": "対外資料の発番確認に使用します。",
+      "url": "https://docs.google.com/spreadsheets/d/1gTIDDgYwLfu69TACrfNacYY9Y7woA_Wy27gi76YYeQ0/edit?usp=drivesdk",
+      "icon": "file",
+      "kind": "Google Sheets",
+      "color": "gold"
+    }
+  ],
+  "pages": {
+    "home": {
+      "title": "千歳青年会議所 メンバーポータル",
+      "lead": "千歳JCの活動、学び、資料、議案チェック、例会コンテンツを一か所にまとめたメンバー向けポータルです。",
+      "body": [
+        "このページでは、千歳青年会議所メンバーが日々の活動で使用する資料、出欠確認、JCを学ぶための公式リンク、議案作成・確認に役立つツール、例会コンテンツなどをまとめています。",
+        "必要な情報へすばやくアクセスし、委員会活動・例会運営・議案作成・事業構築に活用してください。"
+      ],
+      "blocks": [
+        {
+          "type": "cards",
+          "title": "よく使う入口",
+          "columns": 3,
+          "items": [
+            {
+              "title": "JCを学ぶ",
+              "description": "JCの基本資料、事業構築、Gian Pocket、アワード、服装規定、ブランドガイドラインなどを確認できます。",
+              "pageId": "learning",
+              "icon": "book"
+            },
+            {
+              "title": "議案チェック",
+              "description": "議案本文、構成、リンク、添付資料、体裁の確認手順をまとめています。",
+              "pageId": "proposal",
+              "icon": "check",
+              "color": "teal"
+            },
+            {
+              "title": "予定・出欠",
+              "description": "例会、理事会、委員会の予定や出欠確認リンクをまとめます。",
+              "pageId": "attendance",
+              "icon": "calendar",
+              "color": "gold"
+            },
+            {
+              "title": "資料置き場",
+              "description": "議事録、事業資料、対外資料、発番、各種マニュアルへの入口です。",
+              "pageId": "resources",
+              "icon": "folder"
+            },
+            {
+              "title": "例会コンテンツ",
+              "description": "4月AI例会のデモ、Gemini、Gem、NotebookLM、Canva等の体験コンテンツを確認できます。",
+              "pageId": "archive",
+              "icon": "archive",
+              "color": "teal"
+            },
+            {
+              "title": "関連リンク",
+              "description": "アジェンダシステム、出席スプレッドシート、発番スプレッドシートなどの実務リンクです。",
+              "pageId": "related",
+              "icon": "link",
+              "color": "gold"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "4月AI例会アーカイブ",
+          "text": "4月AI例会で使用したGemini、Gem、NotebookLM、Canva、AIデモ、資料ダウンロード等のコンテンツは、既存の例会コンテンツとして残します。AI活用の復習や委員会活動への応用に活用してください。"
+        }
+      ]
+    },
+    "learning": {
+      "title": "JCを学ぶ",
+      "lead": "JC活動を進めるうえで役立つ公式資料・事業事例・学習コンテンツをまとめています。",
+      "body": [
+        "新入会員の学習、委員会運営、事業構築、議案作成、アワード申請、服装・セレモニー確認に活用してください。"
+      ],
+      "blocks": [
+        {
+          "type": "cards",
+          "title": "まず最初に見る",
+          "items": [
+            {
+              "title": "まずはプラっと",
+              "description": "JC運動のヒント、事業構築、LOM支援情報を確認できる入口です。",
+              "url": "https://www.jaycee.or.jp/mpf/",
+              "icon": "external",
+              "kind": "外部サイト"
+            },
+            {
+              "title": "事業・活動情報",
+              "description": "JC、組織運営、事業構築、LOM支援に関する情報を確認できます。",
+              "url": "https://www.jaycee.or.jp/mpf/blog/tools/",
+              "icon": "external",
+              "kind": "外部サイト"
+            },
+            {
+              "title": "JAYCEE Library",
+              "description": "JCの基本資料、会頭所信、ブランドガイドライン、セレモニーブック等を確認できます。",
+              "url": "https://www.jaycee.or.jp/mpf/jaycee-library/",
+              "icon": "book",
+              "kind": "外部サイト"
+            },
+            {
+              "title": "サポートステーション",
+              "description": "JC活動上の悩みや課題に応じた相談・支援情報を確認できます。",
+              "url": "https://www.jaycee.or.jp/mpf/support-station/",
+              "icon": "external",
+              "kind": "外部サイト"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "議案・事業構築に使う",
+          "items": [
+            {
+              "title": "Gian Pocket",
+              "description": "全国のJCメンバーが実施した事業や議案を検索し、事業構築の参考にできます。",
+              "url": "https://gian-pocket.com/",
+              "icon": "search",
+              "kind": "外部サイト",
+              "color": "teal"
+            },
+            {
+              "title": "JCプログラム",
+              "description": "JAYCEE育成・研修プログラムを確認できます。",
+              "url": "https://jc-program.jp/",
+              "icon": "book",
+              "kind": "外部サイト"
+            },
+            {
+              "title": "アワードライブラリー2025",
+              "description": "過去のアワード申請事業やエントリー情報を確認できます。",
+              "url": "https://www2.jaycee.or.jp/awards/2025/",
+              "icon": "archive",
+              "kind": "外部サイト",
+              "color": "gold"
+            },
+            {
+              "title": "アワードライブラリー2026",
+              "description": "2026年度版のアワード情報を確認できます。",
+              "url": "https://www2.jaycee.or.jp/awards/2026/",
+              "icon": "archive",
+              "kind": "外部サイト",
+              "color": "gold"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "基本ルール・体裁確認",
+          "items": [
+            {
+              "title": "JCマークブランドガイドライン",
+              "description": "JCマーク・ブランド表記を確認します。",
+              "url": "https://www.jaycee.or.jp/mpf/wp-content/uploads/2023/09/a0651325520dcfcc778e1ec843cc830a.pdf",
+              "icon": "file",
+              "kind": "PDF"
+            },
+            {
+              "title": "セレモニーブック",
+              "description": "セレモニー、JCI Creed、JCI Vision等の確認に使用します。",
+              "url": "https://www.jaycee.or.jp/mpf/wp-content/uploads/2023/10/5858506284172a99bc8abfcf89161409.pdf",
+              "icon": "file",
+              "kind": "PDF"
+            },
+            {
+              "title": "服装規定",
+              "description": "例会・式典・会議における服装ルールを確認します。",
+              "url": "https://www.jaycee.or.jp/mpf/wp-content/uploads/2026/02/dresschord.pdf",
+              "icon": "file",
+              "kind": "PDF"
+            },
+            {
+              "title": "会議統一ルール",
+              "description": "会議運営や議案上程時のルール確認に使用します。",
+              "url": "https://www.jaycee.or.jp/mpf/wp-content/uploads/2025/02/12.2025toitu_rule_ver7.pdf",
+              "icon": "file",
+              "kind": "PDF"
+            }
+          ]
+        }
+      ]
+    },
+    "proposal": {
+      "title": "議案チェック",
+      "lead": "議案提出前に、本文・構成・リンク・添付資料・体裁を確認するためのページです。",
+      "body": [
+        "議案URLまたは議案ファイルをAIチェックツールに渡し、修正点を整理してから上程してください。"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "title": "チェック対象",
+          "items": [
+            "議案本文",
+            "構成",
+            "日時・場所・対象者・予算の矛盾",
+            "本文と添付資料の整合性",
+            "リンク切れ",
+            "リンク先の中身との整合性",
+            "フォント・文字サイズ・表記ゆれ",
+            "添付資料漏れ",
+            "予算表・発番・外部資料の確認"
+          ]
+        },
+        {
+          "type": "steps",
+          "title": "チェック手順",
+          "items": [
+            "議案URLまたはファイルURLを用意する。",
+            "議案チェックツールにURLを入力する。",
+            "出力されたレポートを確認する。",
+            "重大・中程度・軽微の順で修正する。",
+            "修正後に再チェックする。",
+            "最終的には担当理事・専務・理事長等が確認する。"
+          ]
+        },
+        {
+          "type": "rules",
+          "title": "判定ルール",
+          "items": [
+            { "label": "OK", "description": "修正不要または軽微な表記のみ。" },
+            { "label": "要確認", "description": "人間の判断が必要。" },
+            { "label": "要修正", "description": "議案上程前に修正が必要。" },
+            { "label": "重大", "description": "日時・予算・対象者・資料リンクなどに不整合あり。" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "注意事項",
+          "text": "AIチェックは承認ではなく、事前確認の補助です。予算、契約、個人情報、対外資料、協賛金、行政・学校・企業との連携がある場合は、必ず人間が最終確認してください。"
+        }
+      ]
+    },
+    "attendance": {
+      "title": "予定・出欠",
+      "lead": "例会、理事会、委員会、年間予定、出欠確認リンクをまとめるページです。",
+      "blocks": [
+        {
+          "type": "cards",
+          "title": "出欠確認",
+          "items": [
+            {
+              "title": "例会出欠",
+              "description": "例会等の出欠確認に使用します。",
+              "url": "https://docs.google.com/spreadsheets/d/1xWLeMHVNUXw3fnilWuUSuSBTP1ZMINmmlrMe7zrIcMk/edit?gid=99975116#gid=99975116",
+              "icon": "calendar",
+              "kind": "Google Sheets"
+            },
+            {
+              "title": "理事会出欠",
+              "description": "理事会の出欠確認に使用します。",
+              "url": "https://docs.google.com/spreadsheets/d/17fbtskEilGHakFUt2pikT1___R0w0HI66t6ennopsBg/edit?usp=sharing",
+              "icon": "calendar",
+              "kind": "Google Sheets"
+            },
+            {
+              "title": "委員会出欠",
+              "description": "委員会ごとの出欠確認先が決まり次第、追加します。",
+              "icon": "warning",
+              "status": "リンク未設定",
+              "color": "red"
+            },
+            {
+              "title": "年間予定",
+              "description": "年間予定表またはカレンダーが決まり次第、追加します。",
+              "icon": "warning",
+              "status": "リンク未設定",
+              "color": "gold"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "Googleカレンダー",
+          "text": "共有カレンダーURLが決まり次第、このページから開けるようにします。公開範囲と閲覧権限を確認してから追加してください。"
+        }
+      ]
+    },
+    "resources": {
+      "title": "資料置き場",
+      "lead": "議事録、事業資料、対外資料、議案フォーマット、各種マニュアル、過去例会資料への入口です。",
+      "blocks": [
+        {
+          "type": "cards",
+          "title": "資料カテゴリ",
+          "items": [
+            {
+              "title": "議事録",
+              "description": "理事会・総会・委員会等の議事録への入口です。",
+              "icon": "file",
+              "status": "リンク未設定"
+            },
+            {
+              "title": "事業資料",
+              "description": "各事業の資料フォルダへの入口です。",
+              "icon": "folder",
+              "status": "リンク未設定"
+            },
+            {
+              "title": "対外資料発番",
+              "description": "対外資料の発番確認に使用します。",
+              "url": "https://docs.google.com/spreadsheets/d/1gTIDDgYwLfu69TACrfNacYY9Y7woA_Wy27gi76YYeQ0/edit?usp=drivesdk",
+              "icon": "file",
+              "kind": "Google Sheets",
+              "color": "gold"
+            },
+            {
+              "title": "議案フォーマット",
+              "description": "議案作成フォーマットへの入口です。",
+              "icon": "file",
+              "status": "リンク未設定"
+            },
+            {
+              "title": "マニュアル",
+              "description": "運営マニュアル、手順書、各種説明資料への入口です。",
+              "icon": "book",
+              "status": "リンク未設定"
+            },
+            {
+              "title": "過去例会資料",
+              "description": "過去例会の資料、台本、レポートへの入口です。",
+              "icon": "archive",
+              "status": "リンク未設定",
+              "color": "teal"
+            }
+          ]
+        }
+      ]
+    },
+    "archive": {
+      "title": "例会コンテンツ",
+      "lead": "4月AI例会のデモ、Gemini、Gem、NotebookLM、Canva等の体験コンテンツを確認できます。",
+      "blocks": [
+        {
+          "type": "cards",
+          "title": "AI例会アーカイブ",
+          "items": [
+            {
+              "title": "既存Google Sites 例会コンテンツ",
+              "description": "4月AI例会で使用した体験コンテンツ、資料、デモへの入口です。",
+              "url": "https://sites.google.com/chitose-jc.com/chitose-jc/%E4%BE%8B%E4%BC%9A%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84",
+              "icon": "archive",
+              "kind": "Google Sites"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "title": "残す内容",
+          "items": [
+            "Gemini、Gem、NotebookLM、Canva等の体験コンテンツ",
+            "AIデモ、クイズ、資料ダウンロード",
+            "4月例会で使用した説明や復習用リンク",
+            "総務省生成AIガイドライン等の参考リンク"
+          ]
+        }
+      ]
+    },
+    "related": {
+      "title": "関連リンク",
+      "lead": "アジェンダシステム、出席スプレッドシート、発番スプレッドシートなどの実務リンクです。",
+      "blocks": [
+        {
+          "type": "cards",
+          "title": "千歳JC内の実務リンク",
+          "items": [
+            {
+              "title": "2026アジェンダシステム",
+              "description": "2026年度のアジェンダ確認に使用します。ログイン情報は掲載しません。",
+              "url": "https://agendasys.com/chitose/2026/index.html",
+              "icon": "file",
+              "kind": "内部実務",
+              "color": "teal"
+            },
+            {
+              "title": "2026例会等出席スプレッドシート",
+              "description": "例会等の出欠確認に使用します。",
+              "url": "https://docs.google.com/spreadsheets/d/1xWLeMHVNUXw3fnilWuUSuSBTP1ZMINmmlrMe7zrIcMk/edit?gid=99975116#gid=99975116",
+              "icon": "calendar",
+              "kind": "Google Sheets"
+            },
+            {
+              "title": "2026理事会出席スプレッドシート",
+              "description": "理事会の出欠確認に使用します。",
+              "url": "https://docs.google.com/spreadsheets/d/17fbtskEilGHakFUt2pikT1___R0w0HI66t6ennopsBg/edit?usp=sharing",
+              "icon": "calendar",
+              "kind": "Google Sheets"
+            },
+            {
+              "title": "2026年度対外資料発番スプレッドシート",
+              "description": "対外資料の発番確認に使用します。",
+              "url": "https://docs.google.com/spreadsheets/d/1gTIDDgYwLfu69TACrfNacYY9Y7woA_Wy27gi76YYeQ0/edit?usp=drivesdk",
+              "icon": "file",
+              "kind": "Google Sheets",
+              "color": "gold"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "千歳青年会議所 メンバーポータル",
+  "short_name": "千歳JC",
+  "description": "千歳青年会議所メンバー向けの活動・資料・出欠・議案チェックポータルです。",
+  "start_url": "./index.html#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#0b5cab",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "JCを学ぶ",
+      "short_name": "学ぶ",
+      "url": "./index.html#learning"
+    },
+    {
+      "name": "議案チェック",
+      "short_name": "議案",
+      "url": "./index.html#proposal"
+    },
+    {
+      "name": "予定・出欠",
+      "short_name": "出欠",
+      "url": "./index.html#attendance"
+    }
+  ]
+}
